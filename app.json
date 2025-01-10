@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "tick-tack-toe-mobile",
-    "slug": "tick-tack-toe-mobile",
+    "name": "Tick Tack Toe",
+    "slug": "tick-tack-toe",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
