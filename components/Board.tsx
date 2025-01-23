@@ -1,17 +1,18 @@
-import { View, Text, StyleSheet } from "react-native";
+import { View, Text, StyleSheet, Pressable } from "react-native";
+import TicBox from "./TicBox";
 
 const Board = () => {
   return (
     <View style={styles.board}>
-      <View style={styles.box}><Text>O</Text></View>
-      <View style={styles.box}><Text>O</Text></View>
-      <View style={styles.box}><Text>O</Text></View>
-      <View style={styles.box}><Text>O</Text></View>
-      <View style={styles.box}><Text>O</Text></View>
-      <View style={styles.box}><Text>O</Text></View>
-      <View style={styles.box}><Text>O</Text></View>
-      <View style={styles.box}><Text>O</Text></View>
-      <View style={styles.box}><Text>O</Text></View>
+      <TicBox />
+      <TicBox />
+      <TicBox />
+      <TicBox />
+      <TicBox />
+      <TicBox />
+      <TicBox />
+      <TicBox />
+      <TicBox />
     </View>
   );
 };
@@ -19,21 +20,12 @@ const Board = () => {
 const styles = StyleSheet.create({
   board: {
     width: '90%',
-    aspectRatio: '1 / 1',
+    aspectRatio: 1,
     margin: 'auto',
-    backgroundColor: 'black',
-    verticalAlign: 'middle',
-    alignSelf: 'center',
+    backgroundColor: 'silver',
     alignContent: 'space-between',
     justifyContent: 'space-between',
     flexWrap: 'wrap',
-  },
-  box: {
-    width: '30%',
-    height: '30%',
-    backgroundColor: 'white',
-    alignContent: 'center',
-    justifyContent: 'center',
   },
 });
 
